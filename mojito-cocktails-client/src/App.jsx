@@ -1,7 +1,7 @@
-import Home from "./Home";
-
 import { ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
+import NavBar from "./components/NavBar";
+
 import "./App.css";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -9,7 +9,9 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <>
-      <Home />
+      <main>
+        <NavBar />
+      </main>
     </>
   );
 }
