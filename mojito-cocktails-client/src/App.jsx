@@ -1,6 +1,7 @@
 import { ScrollTrigger, SplitText } from "gsap/all";
 import gsap from "gsap";
 import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 
 import "./App.css";
 
@@ -11,6 +12,8 @@ function App() {
     <>
       <main>
         <NavBar />
+        <Hero />
+        <div className=" h-dvh bg-black"></div>
       </main>
     </>
   );
